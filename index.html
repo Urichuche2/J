@@ -1,1 +1,77 @@
-<embed src="https://playgama.com/export/game/deadly-descent"></embed>
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcade Directo</title>
+<style>
+body {
+background-color: #0f0f0f;
+color: #e0e0e0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.grid-juegos {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+gap: 30px;
+width: 100%;
+max-width: 1200px;
+margin-top: 20px;
+}
+.contenedor-juego {
+background: #1a1a1a;
+border-radius: 12px;
+padding: 15px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+transition: transform 0.3s ease;
+}
+.contenedor-juego:hover {
+transform: translateY(-5px);
+border: 1px solid #333;
+}
+embed, iframe {
+width: 100%;
+height: 350px;
+border-radius: 8px;
+border: none;
+}
+h2 {
+font-size: 1.2rem;
+margin-bottom: 10px;
+color: #00ff95;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-juegos">
+    <div class="contenedor-juego">
+        <h2>Deadly Descent</h2>
+        <embed src="[https://playgama.com/export/game/deadly-descent](https://playgama.com/export/game/deadly-descent)"></embed>
+    </div>
+
+    <div class="contenedor-juego">
+        <h2>Vex 3</h2>
+        <embed src="[https://playgama.com/export/game/vex-3](https://playgama.com/export/game/vex-3)"></embed>
+    </div>
+
+    <div class="contenedor-juego">
+        <h2>Super MX - Last Season</h2>
+        <embed src="[https://playgama.com/export/game/super-mx-last-season](https://playgama.com/export/game/super-mx-last-season)"></embed>
+    </div>
+
+    <div class="contenedor-juego">
+        <h2>Bottle Flip</h2>
+        <embed src="[https://playgama.com/export/game/bottle-flip](https://playgama.com/export/game/bottle-flip)"></embed>
+    </div>
+</div>
+</body>
+</html>
